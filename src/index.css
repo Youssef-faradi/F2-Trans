@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: Robotto;
+    src: url(./assets/fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+*{
+    font-family: Roboto;
+}
+
+
+:root {
+    --primary: #020a3a ;
+    --secondary: #d51522 ;
+    --third: #046dab;
+    --white: #ffffff;
+    --red: #c80037;
+    --blue:#00141e;
+    --lightblue:#001e28 ;
+}
